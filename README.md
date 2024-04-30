@@ -7,3 +7,5 @@ e misturado
 atualizando para resetar pc
 
 atualizando de novo
+
+troca de pc

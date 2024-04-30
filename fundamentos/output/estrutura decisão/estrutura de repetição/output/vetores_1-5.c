@@ -5,7 +5,7 @@ int main()
    int numeros[10];
    int  maior=0, menor;
    int numero_verificado = 0;
-
+    int sim = 0;
 
    for (int i=0; i<10; i++){
     printf("\n Digite um numero inteiro: ");
@@ -25,15 +25,16 @@ int main()
         if(numeros[z]>maior){
             maior=numeros[z];
             }
-
-    if (numero_verificado == numeros[z])
-    {
-        printf("\n sim ");
-   }
-   if (numero_verificado != numeros[z])
+   if (numeros[z == numero_verificado])
    {
-    printf("\n nao");
+    sim = 1;
    }
+   
+   }
+      if (sim = 1){
+    printf("\n ta ai essa bosta");
+   }else{
+    printf("\n n ta essa merda");
    }
 
     printf("\n a soma dos numeros eh: %.2f", soma);
